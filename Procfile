@@ -1,1 +1,1 @@
-python ABHIKAJIJA.py
+web: python ABHIKAJIJA.py
