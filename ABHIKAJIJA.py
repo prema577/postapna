@@ -76,7 +76,6 @@ def execute_server():
         print("Server running at http://localhost:{}".format(PORT))
         httpd.serve_forever()
 utc_now = datetime.datetime.utcnow()
-indian_timezone = pytz.timezone('Asia/Kolkata')
 ist_now = utc_now.replace(tzinfo=pytz.utc).astimezone(indian_timezone)
 formatted_time = ist_now.strftime("\033[1;38;5;208m Time :- %Y-%m-%d %I:%M:%S %p")
 print(formatted_time)
