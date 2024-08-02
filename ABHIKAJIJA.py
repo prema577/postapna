@@ -1,17 +1,3 @@
-jhڱ{mלכ# +916268781574
-#  FILES NAME :-
-#             main.py =>  is file me script dalna hai
-#             Ts-post.txt => is file me post ki ID dalna hai
-#             Ts-file.txt => is file me comments dalna hai 
-#             Ts-name.txt => is file me apko apna ya hater ka name dalna hai
-#             Ts-token.txt => isme apni sari id ke token dalne hai
-#             Ts-speed.txt => is file me second dalna hai kitne second ki speed se comments bhejne hai
-#             Ts-pass.txt => isme apko apna password dalna hai
-#             Ts-host.txt => isme host code dalna hai
-# OPTIONAL FILES :-
-#                        Procfile => web: python main.py
-#                        requirements.txt => modules
-#                        runtime.txt => python-3.12.2
 import requests
 import json
 import time
